@@ -1,0 +1,87 @@
+/* FetchAds.css */
+
+.ads-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .ads-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .ad-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .ad-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .ad-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .ad-item h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin: 10px;
+  }
+  
+  .ad-item p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 10px;
+  }
+  
+  .ad-item strong {
+    display: block;
+    color: #3498db;
+    margin: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #3498db;
+    padding: 20px;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 18px;
+    color: #e74c3c;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ads-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ad-item {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,70 @@
+.view-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .social-stats {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .verification-status {
+    margin-top: 5px;
+    font-size: 14px;
+    color: green;
+  }
+  
+  .profile-details {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .no-listings {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .no-listings img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .start-selling-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-selling-btn:hover {
+    background-color: #0056b3;
+  }
+  

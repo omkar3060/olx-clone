@@ -1,0 +1,43 @@
+.featured-products {
+  padding: 20px;
+  height: fit-content;
+}
+
+.featured-products h2 {
+  margin-left: 15.5vw;
+  color: #002f34;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 14vw;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 2px solid #555;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for shadow */
+  padding: 4px;
+}
+
+.product-card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.proimage {
+  background-size: contain; /* Ensure the image fits within the button */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100px;
+  height: 100px;
+}
